@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(31 39 22);
+    color: aliceblue;
+}
+
+.demo-form{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.hidden{
+    display: none;
+}
+
+.pass-wrapper{
+    position: relative;
+}
+
+.pass-eye{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.phone-wrapper{
+    width: 100%;
+}
+
+.phone-wrapper .iti{
+    display: block;
+    width: 100%;
+}
+
+.fContainer{
+    margin: auto;
+    margin-top: 18%;
+}
+
+.inputRWrapper{
+    margin-left: 3%;
+}
+
+.Finaldetails{
+    margin-left: 5%;
+}
+
+.formD{
+    margin-top: 2%;
+    line-height: 0.5;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width:90%;
+        margin:auto;
+    }
+    .title{
+        font-size: unset;
+        margin-top: 60%;
+    }
+}
